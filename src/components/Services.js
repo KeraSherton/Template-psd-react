@@ -5,15 +5,42 @@ const Services = () => {
   return (
     <div className="services">
       <div className="services-container">
-        <div className="services-content">
-          <p className="services-title"></p>
-          <p className="services-summary"></p>
+        <div className="services-content-box">
+          <p className="services-title">Lorem Ipsum Dolor</p>
+          <p className="services-summary">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+            libero error et atque.
+          </p>
         </div>
-        <div className="services-box">
-          <p className="services-box-title"></p>
-          <canvas className="services-img" />
-          <p className="services-content"></p>
+
+        <div className="services-content-box">
+          <p className="services-box-title">Vivamus quis mi</p>
+          <canvas className="services-icon" />
+          <p className="services-content">
+            In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare
+            lobortis. Curabitur a felis in nunc fringilla tristique. Morbi
+            mattis ullamcorper velit.
+          </p>
         </div>
+        <div className="services-content-box">
+          <p className="services-box-title">Vivamus quis mi</p>
+          <canvas className="services-icon" />
+          <p className="services-content">
+            In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare
+            lobortis. Curabitur a felis in nunc fringilla tristique. Morbi
+            mattis ullamcorper velit.
+          </p>
+        </div>
+        <div className="services-content-box">
+          <p className="services-box-title">Vivamus quis mi</p>
+          <canvas className="services-icon" />
+          <p className="services-content">
+            In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare
+            lobortis. Curabitur a felis in nunc fringilla tristique. Morbi
+            mattis ullamcorper velit.
+          </p>
+        </div>
+
         <canvas className="splitter" />
       </div>
     </div>
