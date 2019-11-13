@@ -1,0 +1,79 @@
+.header {
+  width: 1000px;
+  height: 125px;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  background-color: aqua;
+  width: 315px;
+  height: 29px;
+  color: #333333;
+  font-family: Georgia;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 49px;
+  display: inline-flex;
+}
+
+.logoInitial {
+  font-size: 36px;
+  line-height: 30px;
+}
+.logoTxt {
+  line-height: 26px;
+  line-height: 36px;
+}
+
+.line {
+  width: 1px;
+  height: 25px;
+  background-color: #999999;
+  margin-left: 9px;
+  margin-right: 7px;
+}
+
+.logoDescribe {
+  width: 102px;
+  height: 28px;
+  color: #999999;
+  font-family: Georgia;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+}
+.menu {
+  width: auto;
+}
+
+.list {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.menuTxt {
+  /* display: block; */
+  font-family: Georgia;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: #666666;
+}
