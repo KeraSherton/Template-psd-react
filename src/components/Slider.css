@@ -1,0 +1,33 @@
+.slider {
+  width: 1000px;
+  height: 430px;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-rectangle {
+  width: 960px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.button-left {
+  margin-left: 888px;
+  /*900*/
+}
+.button-right {
+  margin-left: 5px;
+  /*925*/
+}
+
+.slider-background {
+  width: 1000px;
+  height: 360px;
+  background-color: #ffffff;
+}

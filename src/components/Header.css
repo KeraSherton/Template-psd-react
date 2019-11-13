@@ -9,7 +9,6 @@
 }
 
 .logo {
-  background-color: aqua;
   width: 315px;
   height: 29px;
   color: #333333;
@@ -25,10 +24,11 @@
 
 .logoInitial {
   font-size: 36px;
-  line-height: 30px;
+  line-height: 23px;
 }
+
 .logoTxt {
-  line-height: 26px;
+  font-size: 26px;
   line-height: 36px;
 }
 
@@ -46,16 +46,16 @@
   color: #999999;
   font-family: Georgia;
   font-size: 12px;
-  font-weight: 400;
   line-height: normal;
   text-transform: none;
 }
+
 .menu {
-  width: auto;
+  width: 700px;
 }
 
 .list {
-  display: inline-block;
+  display: flex;
   list-style-type: none;
   text-align: center;
 }
@@ -65,12 +65,10 @@
 }
 
 .menuTxt {
-  /* display: block; */
   font-family: Georgia;
   font-size: 12px;
-  font-weight: 400;
   text-transform: uppercase;
-  text-align: center;
+  vertical-align: middle;
 }
 
 a:any-link {

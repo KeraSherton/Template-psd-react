@@ -1,0 +1,27 @@
+.footer {
+  width: 1000px;
+  height: 480px;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-rectangle {
+  /* Style for "Background" */
+  width: 960px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.social-circle {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background-color: #333333;
+  margin: 8px;
+}
+.button-up {
+  margin-left: 700px;
+}

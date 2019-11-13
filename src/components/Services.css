@@ -1,0 +1,50 @@
+.services {
+  width: 1000px;
+  height: 180px;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+}
+
+.services-container {
+  width: 920px;
+  height: 180px;
+  background-color: tomato;
+}
+
+.services-img {
+  width: 48px;
+  height: 48px;
+  background-color: #353535;
+}
+
+.services-title {
+  color: #666666;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.services-box {
+  width: 210px;
+  height: 100px;
+}
+
+.services-box-title {
+  color: #e2494b;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.services-content {
+  width: 201px;
+  height: 50px;
+  color: #999999;
+  font-family: Georgia;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
