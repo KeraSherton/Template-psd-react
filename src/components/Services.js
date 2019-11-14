@@ -41,7 +41,7 @@ const Services = () => {
           </p>
         </div>
 
-        <canvas className="splitter" />
+        <canvas className="services-splitter" />
       </div>
     </div>
   );

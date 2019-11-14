@@ -23,6 +23,7 @@
   font-family: Georgia;
   font-size: 18px;
   line-height: 21.6px;
+  margin-bottom: 18px;
 }
 
 .services-summary {
@@ -43,6 +44,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
+  margin-bottom: 18px;
 }
 
 .services-icon {
@@ -60,10 +62,16 @@
   line-height: 18.2px;
 }
 
-.splitter {
+.services-splitter {
   width: 920px;
   height: 2px;
   background-color: #999999;
+  background-image: linear-gradient(
+    to right,
+    #fafafa 0%,
+    #e8e8e8 50%,
+    #fafafa 100%
+  );
   position: absolute;
   bottom: 250px;
 }

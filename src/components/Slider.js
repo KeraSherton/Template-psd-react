@@ -7,8 +7,8 @@ const Slider = () => {
   return (
     <div className="slider">
       <div className="slider-rectangle">
-        <img className="button-left" src={left} alt="left" />
-        <img className="button-right" src={right} alt="right" />
+        <input type="image" src={left} className="button-left" />
+        <input type="image" src={right} className="button-right" />
       </div>
       <div className="slider-background"></div>
     </div>

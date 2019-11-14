@@ -2,9 +2,6 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
-  const logoInitial = "A";
-  const logoText = "utonomous";
-  const logoDescribe = "Free PSD Website Template";
   const menu1 = "home";
   const menu2 = "style demo";
   const menu3 = "full width";
@@ -15,10 +12,12 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <div className="logoInitial">{logoInitial}</div>
-        <div className="logoText">{logoText}</div>
+        <div className="logoInitial">A</div>
+        <div className="logoText">utonomous</div>
         <canvas className="line" />
-        <div className="logoDescribe">{logoDescribe}</div>
+        <div className="logoDescribe">
+          Free PSD <br /> Website Template
+        </div>
       </div>
       <nav className="menu">
         <ul className="list">
