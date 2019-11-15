@@ -6,12 +6,14 @@ import submit from "../images/submit.png";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-social-container">
+      <div className="footer-rectangle-container">
         <div className="footer-rectangle">
-          <canvas className="social-circle" />
-          <canvas className="social-circle" />
-          <canvas className="social-circle" />
-          <canvas className="social-circle" />
+          <div className="footer-social-container">
+            <canvas className="social-circle" />
+            <canvas className="social-circle" />
+            <canvas className="social-circle" />
+            <canvas className="social-circle" />
+          </div>
           <input type="image" src={up} className="button-up" />
         </div>
       </div>
@@ -22,11 +24,13 @@ const Footer = () => {
           <div className="footer-img-frame">
             <div className="footer-img-aboutUs"> 215 x 90px </div>
           </div>
-          <p className="footer-txt">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ridiculus
-            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-            sem.
-          </p>
+          <div className="footer-about-us">
+            <p className="footer-txt">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+              pretium quis, sem.
+            </p>
+          </div>
           <a href="./aboutUs" className="footer-link">
             Read more &#8811;
           </a>
@@ -90,25 +94,28 @@ const Footer = () => {
         </div>
         <div className="footer-content-box">
           <p className="footer-post-cont-title">From the blog</p>
-          <p className="footer-post-title">Post title</p>
-          <p className="footer-post-date">Friday, 13th December 2019</p>
-          <p className="footer-txt">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ridiculus
-            mus.
-          </p>
-          <a href="./abouUs" className="footer-link">
-            Read more &#8811;
-          </a>
-          <br />
-          <p className="footer-post-title">Post title</p>
-          <p className="footer-post-date">Friday, 13th December 2019</p>
-          <p className="footer-txt">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ridiculus
-            mus.
-          </p>
-          <a href="./abouUs" className="footer-link">
-            Read more &#8811;
-          </a>
+          <div className="footer-blog-art">
+            <p className="footer-post-title">Post title</p>
+            <p className="footer-post-date">Friday, 13th December 2019</p>
+            <p className="footer-txt">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              ridiculus mus. consectetuer adipiscing elit.
+            </p>
+            <a href="./aboutUs" className="footer-link">
+              Read more &#8811;
+            </a>
+          </div>
+          <div className="footer-blog-art">
+            <p className="footer-post-title">Post title</p>
+            <p className="footer-post-date">Friday, 13th December 2019</p>
+            <p className="footer-txt">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              ridiculus mus. consectetuer adipiscing elit.
+            </p>
+            <a href="./aboutUs" className="footer-link">
+              Read more &#8811;
+            </a>
+          </div>
         </div>
 
         <div className="footer-content-box">
