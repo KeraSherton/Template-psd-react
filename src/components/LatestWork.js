@@ -18,8 +18,7 @@ const LatestWork = () => {
             210 x 140px
           </div>
           <p className="latestWork-describe">
-            Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id
-            nisl quis enim dignissim sagittis.
+            Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus.
           </p>
           <a href="./work" className="latestWork-link">
             View This Project &#8811;
@@ -30,8 +29,7 @@ const LatestWork = () => {
             210 x 140px
           </div>
           <p className="latestWork-describe">
-            Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id
-            nisl quis enim dignissim sagittis.
+            Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus.
           </p>
           <a href="./work" className="latestWork-link">
             View This Project &#8811;
@@ -42,8 +40,7 @@ const LatestWork = () => {
             210 x 140px
           </div>
           <p className="latestWork-describe">
-            Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id
-            nisl quis enim dignissim sagittis.
+            Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus.
           </p>
           <a href="./work" className="latestWork-link">
             View This Project &#8811;

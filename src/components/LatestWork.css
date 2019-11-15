@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  font-family: Georgia;
 }
 
 .latestWork-container {
@@ -21,15 +22,13 @@
 
 .latestWork-title {
   color: #666666;
-  font-family: Georgia;
   font-size: 18px;
-  line-height: 21.6px;
   margin-bottom: 18px;
 }
 
 .latestWork-summary {
   color: #999999;
-  font-family: Georgia;
+
   font-size: 13px;
   line-height: 18.2px;
 }
@@ -44,7 +43,6 @@
   height: 140px;
   background-color: #333333;
   color: #f8f8f8;
-  font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -53,13 +51,12 @@
 
 .latestWork-describe {
   color: #999999;
-  font-family: Georgia;
   font-size: 13px;
   margin-top: 23px;
+  line-height: 18.2px;
 }
 
 .latestWork-link {
   color: #e2494b;
-  font-family: Georgia;
   font-size: 13px;
 }
