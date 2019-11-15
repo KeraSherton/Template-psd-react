@@ -31,3 +31,22 @@
   height: 360px;
   background-color: #ffffff;
 }
+
+.image {
+  width: 210px;
+  height: 370px;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 178px;
+}
+
+.slider-wrapper {
+  width: 900px;
+  display: flex;
+  /* /* flex-direction: column; */
+  justify-content: space-around;
+  margin-left: 50px;
+}

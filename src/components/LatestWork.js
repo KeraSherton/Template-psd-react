@@ -14,7 +14,9 @@ const LatestWork = () => {
         </div>
 
         <div className="latestWork-content-box">
-          <canvas className="latestWork-img" alt="project image" />
+          <div className="latestWork-img" alt="project image">
+            210 x 140px
+          </div>
           <p className="latestWork-describe">
             Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id
             nisl quis enim dignissim sagittis.
@@ -24,7 +26,9 @@ const LatestWork = () => {
           </a>
         </div>
         <div className="latestWork-content-box">
-          <canvas className="latestWork-img" alt="project image" />
+          <div className="latestWork-img" alt="project image">
+            210 x 140px
+          </div>
           <p className="latestWork-describe">
             Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id
             nisl quis enim dignissim sagittis.
@@ -34,7 +38,9 @@ const LatestWork = () => {
           </a>
         </div>
         <div className="latestWork-content-box">
-          <canvas className="latestWork-img" alt="project image" />
+          <div className="latestWork-img" alt="project image">
+            210 x 140px
+          </div>
           <p className="latestWork-describe">
             Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id
             nisl quis enim dignissim sagittis.

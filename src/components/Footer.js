@@ -19,7 +19,9 @@ const Footer = () => {
       <div className="footer-box">
         <div className="footer-content-box">
           <p className="footer-title">About us</p>
-          <div className="footer-img-aboutUs"> 215 x 90px </div>
+          <div className="footer-img-frame">
+            <div className="footer-img-aboutUs"> 215 x 90px </div>
+          </div>
           <p className="footer-txt">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ridiculus
             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
@@ -85,12 +87,6 @@ const Footer = () => {
             Praesent vestibulum dapibus nibh.
           </a>
           <div className="footer-link-separator" />
-
-          <span className="arrow">&#8811;</span>
-          <a href="link" className="footer-link">
-            Lorem ipsum dolor sit
-          </a>
-          <div className="footer-link-separator" />
         </div>
         <div className="footer-content-box">
           <p className="footer-post-cont-title">From the blog</p>
@@ -139,6 +135,13 @@ const Footer = () => {
             <input type="image" src={submit} value="Submit" />
           </form>
         </div>
+      </div>
+      <canvas className="footer-splitter" />
+      <div className="footer-footer">
+        <p className="copright">
+          Copright &#9400; 2019- All Rights Reserved - Domain Name
+        </p>
+        <p className="autor">Template by OS Template</p>
       </div>
     </div>
   );
