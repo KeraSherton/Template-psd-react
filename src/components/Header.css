@@ -3,8 +3,7 @@
   height: 125px;
   background-color: #e8e8e8;
   display: flex;
-  /* flex-direction: row; */
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-family: Georgia;
 }
@@ -12,21 +11,22 @@
 .logo {
   width: 315px;
   height: 29px;
-  color: #333333;
+
   display: inline-flex;
   margin-left: 20px;
 }
 
-.logoText {
+.logo-text {
   font-size: 26px;
   text-transform: uppercase;
+  color: #333333;
 }
-.logoText::first-letter {
+.logo-text::first-letter {
   font-size: 36px;
   line-height: 23px;
 }
 
-.line {
+.logo-separator {
   width: 1px;
   height: 25px;
   background-color: #999999;
@@ -34,30 +34,29 @@
   margin-right: 7px;
 }
 
-.logoDescribe {
+.logo-describe {
   width: 102px;
   height: 28px;
   color: #999999;
   font-size: 12px;
   line-height: normal;
-  text-transform: none;
 }
 
-.menu {
-  width: 700px;
+.header-menu {
+  width: 558px;
 }
 
-.list {
+.header-menu-list {
   display: flex;
   list-style-type: none;
   text-align: center;
 }
 
-.item {
+.header-menu-item {
   flex-grow: 1;
 }
 
-.menuTxt {
+.menu-text {
   font-size: 12px;
   text-transform: uppercase;
   vertical-align: middle;

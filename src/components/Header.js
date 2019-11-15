@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 const Header = () => {
   const menu2 = "style demo";
@@ -11,48 +12,81 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <div className="logoText">Autonomous</div>
-        <canvas className="line" />
-        <div className="logoDescribe">
+        <div className="logo-text">Autonomous</div>
+        <canvas className="logo-separator" />
+        <div className="logo-describe">
           Free PSD <br /> Website Template
         </div>
       </div>
 
-      <div className="menu">
-        <nav>
-          <ul className="list">
-            <li className="item">
-              <a href="./menu1" className="menuTxt">
-                home
-              </a>
-            </li>
-            <li className="item">
-              <a href="./menu2" className="menuTxt">
-                {menu2}
-              </a>
-            </li>
-            <li className="item">
-              <a href="./menu3" className="menuTxt">
-                {menu3}
-              </a>
-            </li>
-            <li className="item">
-              <a href="./menu4" className="menuTxt">
-                {menu4}
-              </a>
-            </li>
-            <li className="item">
-              <a href="./menu5" className="menuTxt">
-                {menu5}
-              </a>
-            </li>
-            <li className="item">
-              <a href="./menu6" className="menuTxt">
-                {menu6}
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <div className="header-menu">
+        <Router>
+          <nav>
+            <ul className="header-menu-list">
+              <li className="header-menu-item">
+                <NavLink
+                  to="./home"
+                  className="menu-text"
+                  activeClassName="home_selected"
+                  activeStyle={{ color: "#e2494b" }}
+                >
+                  home
+                </NavLink>
+              </li>
+
+              <li className="header-menu-item">
+                <NavLink
+                  to="./menu2"
+                  className="menu-text"
+                  activeClassName="menu2_selected"
+                  activeStyle={{ color: "#e2494b" }}
+                >
+                  {menu2}
+                </NavLink>
+              </li>
+              <li className="header-menu-item">
+                <NavLink
+                  to="./menu3"
+                  className="menu-text"
+                  activeClassName="menu3_selected"
+                  activeStyle={{ color: "#e2494b" }}
+                >
+                  {menu3}
+                </NavLink>
+              </li>
+              <li className="header-menu-item">
+                <NavLink
+                  to="./menu4"
+                  className="menu-text"
+                  activeClassName="menu4_selected"
+                  activeStyle={{ color: "#e2494b" }}
+                >
+                  {menu4}
+                </NavLink>
+              </li>
+              <li className="header-menu-item">
+                <NavLink
+                  to="./menu5"
+                  className="menu-text"
+                  activeClassName="menu5_selected"
+                  activeStyle={{ color: "#e2494b" }}
+                >
+                  {menu5}
+                </NavLink>
+              </li>
+              <li className="header-menu-item">
+                <NavLink
+                  to="./menu6"
+                  className="menu-text"
+                  activeClassName="menu6_selected"
+                  activeStyle={{ color: "#e2494b" }}
+                >
+                  {menu6}
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+        </Router>
       </div>
     </div>
   );
