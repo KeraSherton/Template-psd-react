@@ -1,20 +1,45 @@
 import React from "react";
 import "./Footer.css";
 import up from "../images/up.png";
-import submit from "../images/submit.png";
+import fb from "../images/fb.png";
+import tw from "../images/tw.png";
+import ggl from "../images/ggl.png";
+import lin from "../images/lin.png";
+import ContactForm from "./ContactForm";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="footer">
       <div className="footer-rectangle-container">
         <div className="footer-rectangle">
           <div className="footer-social-container">
-            <canvas className="social-circle" />
-            <canvas className="social-circle" />
-            <canvas className="social-circle" />
-            <canvas className="social-circle" />
+            <a href="https://www.facebook.com/">
+              <img src={fb} className="social-circle" />
+            </a>
+
+            <a href="https://twitter.com/">
+              <img src={tw} className="social-circle" />
+            </a>
+
+            <a href="https://www.google.pl">
+              <img src={ggl} className="social-circle" />
+            </a>
+
+            <a href="https://pl.linkedin.com">
+              <img src={lin} className="social-circle" />
+            </a>
           </div>
-          <input type="image" src={up} className="button-up" />
+          <input
+            type="image"
+            src={up}
+            className="button-up"
+            alt="up"
+            onClick={scrollToTop}
+          />
         </div>
       </div>
 
@@ -120,27 +145,7 @@ const Footer = () => {
 
         <div className="footer-content-box">
           <p className="footer-title">Contact us</p>
-          <form action="">
-            <input
-              className="footer-contact"
-              type="text"
-              id="name"
-              placeholder="Name"
-            />
-            <input
-              className="footer-contact"
-              type="text"
-              id="email"
-              placeholder="Email"
-            />
-            <textarea
-              className="footer-contact-message"
-              type="text"
-              id="message"
-              placeholder="Message"
-            />
-            <input type="image" src={submit} value="Submit" />
-          </form>
+          <ContactForm />
         </div>
       </div>
       <canvas className="footer-splitter" />
