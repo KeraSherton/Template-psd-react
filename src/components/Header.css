@@ -1,3 +1,11 @@
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-wrapper{
+  background-color: #e8e8e8;
+}
 .header {
   width: 1000px;
   height: 125px;
