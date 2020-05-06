@@ -3,6 +3,7 @@ import "./LatestWork.css";
 
 const LatestWork = () => {
   return (
+    <div className="wrapper">
     <div className="latestWork">
       <div className="latestWork-container">
         <div className="latestWork-content-box">
@@ -48,6 +49,7 @@ const LatestWork = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

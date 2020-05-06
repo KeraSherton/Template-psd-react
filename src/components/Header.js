@@ -10,6 +10,7 @@ const Header = () => {
   const menu6 = "gallery";
 
   return (
+  <div className="wrapper header-wrapper">
     <div className="header">
       <div className="logo">
         <div className="logo-text">Autonomous</div>
@@ -89,6 +90,7 @@ const Header = () => {
         </Router>
       </div>
     </div>
+  </div>
   );
 };
 

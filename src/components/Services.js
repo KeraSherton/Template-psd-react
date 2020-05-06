@@ -4,6 +4,7 @@ import "./Services.css";
 const Services = () => {
   return (
     <>
+    <div className="wrapper">
       <div className="services">
         <div className="services-container">
           <div className="services-content-box">
@@ -51,7 +52,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div></div>
       <canvas className="services-splitter" />
     </>
   );

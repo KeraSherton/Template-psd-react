@@ -13,24 +13,25 @@ const Footer = () => {
   };
 
   return (
+  <div className="wrapper header-wrapper">
     <div className="footer">
       <div className="footer-rectangle-container">
         <div className="footer-rectangle">
           <div className="footer-social-container">
             <a href="https://www.facebook.com/">
-              <img src={fb} className="social-circle" />
+              <img src={fb} className="social-circle" alt="fb"/>
             </a>
 
             <a href="https://twitter.com/">
-              <img src={tw} className="social-circle" />
+              <img src={tw} className="social-circle" alt="tw"/>
             </a>
 
             <a href="https://www.google.pl">
-              <img src={ggl} className="social-circle" />
+              <img src={ggl} className="social-circle" alt="ggl" />
             </a>
 
             <a href="https://pl.linkedin.com">
-              <img src={lin} className="social-circle" />
+              <img src={lin} className="social-circle" alt="lin" />
             </a>
           </div>
           <input
@@ -156,6 +157,7 @@ const Footer = () => {
         <p className="autor">Template by OS Template</p>
       </div>
     </div>
+  </div>
   );
 };
 
